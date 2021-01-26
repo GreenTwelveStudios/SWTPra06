@@ -1204,3 +1204,8 @@ nav#filter li {
 .isotopeWrapper article {
 	margin: 0px;
 }
+h6 {
+	color: #fff;
+	font-size: 30px;
+	text-decoration: underline;
+}
