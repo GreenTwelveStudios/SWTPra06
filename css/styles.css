@@ -200,7 +200,7 @@ a:hover {
 	background: rgba(255, 255, 255, 0.70);
 }
 .addBg {
-	background: #006837;
+	background-image: linear-gradient(160deg, #006837 30%, #39b54a 100%);
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
