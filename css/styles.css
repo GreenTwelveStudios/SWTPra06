@@ -28,12 +28,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #006837; /*#006837*/
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%); /*#006837*/
 }
 
 ::-moz-selection {
  color: #fff;
- background: #006837; /*#.00b803*/
+ background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%); /*#.00b803*/
 }
 p {
 	color: #858585;
@@ -77,10 +77,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #BEBEBE;
 }
 .btn {
-	background: #006837; /*#006837;*/
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%); /*#006837;*/
 }
 .btn:hover {
-	background: #006837; /*#145AC4;*/
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%); /*#145AC4;*/
 }
 .btn, .form-control, .team-socials i {
 	border-radius: 5px !important;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #39b54a; /*#006837;*/
+	color: #fff; /*#006837;*/
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -141,7 +141,7 @@ a:hover {
 	border-radius: 0px;
 }
 .btn-primary {
-	background: #006837;
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);
 }
 .form-control {
 	border-radius: 0px;
@@ -200,7 +200,7 @@ a:hover {
 	background: rgba(255, 255, 255, 0.70);
 }
 .addBg {
-	background-image: linear-gradient(160deg, #006837 30%, #39b54a 100%);
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -275,7 +275,7 @@ a:hover {
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #006837;
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);
 }
 .actionPanel h3 {
 	margin: 0px;
@@ -345,9 +345,11 @@ a:hover {
 	border-radius: 0px;
 }
 .addBg .navbar-inverse .navbar-nav > .active > a, .addBg .navbar-inverse .navbar-nav > .active > a:hover, .addBg .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #39b54a;
+	color: #fff;/*#006837;*/
+	text-decoration: underline;
+	font-weight: 700px;
 	background: none;
-	border-radius: 0px;
+	border-radius: 3px;
 }
 .navbar-inverse .navbar-nav > .active {
 }
@@ -417,7 +419,7 @@ a:hover {
 	margin: 37px 0 13px;
 	text-transform: uppercase;
 	text-shadow: 0 1px 1px rgba(124, 124, 124, 1);
-	background: rgba(0, 104, 55, 0.53);
+	background-image: linear-gradient(160deg, rgba(0, 104, 55, 0.53) 50%, rgba(57,181,74,0.53) 100%);
 	display: inline-block;
 	/* float: left; */
 	margin: 0 auto;
@@ -450,7 +452,7 @@ a.arrow-link:hover {
 	color: #006837;
 }
 .colord {
-	background: #006837 /*#006837;*/
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%) /*#006837;*/
 }
 .colord p {
 	color: #DAE0FF;
@@ -643,7 +645,7 @@ img, video, iframe, embed, object {
 	margin: 2px;
 }
 #contactUs {
-/*background: #006837;*/;
+/*background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);*/;
 }
 #contactUs .btn {
 	border-radius: 0px !important;
@@ -684,7 +686,7 @@ img, video, iframe, embed, object {
 }
 /* --Portfolio----- */
 #work {
-	background: #006837;
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);
 	color: #fff;
 }
 #work h2 {
@@ -774,7 +776,7 @@ nav#filter a {
 	text-decoration: none;
 }
 .current {
-	background: #006837;
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%);
 	color: #fff;
 }
 .page-section.intro {
@@ -1134,7 +1136,7 @@ nav#filter li {
 }
 .parlex-back {
 	padding: 30px 0;
-	background-color: rgba(0, 104, 55, 0.84);
+	background-image: linear-gradient(160deg, rgba(0, 104, 55, 0.84) 50%, rgba(57,181,74,0.84) 100%);
 	color: #FDFDFD !important;
 }
 .parlex-back .heading p {
@@ -1187,7 +1189,7 @@ nav#filter li {
 	transform: scale(1.1);
 }
 .flat .plan.featured:hover li.plan-name, .flat .plan:hover li.plan-name, .flat .plan.featured.plan-name {
-	background: #006837 !important;
+	background-image: linear-gradient(160deg, #006837 20%, #39b54a 100%) !important;
 }
 .customNavigation {
 	display: none;
